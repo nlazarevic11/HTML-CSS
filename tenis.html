@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="folder_css/main.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+	<div class="page">
+		<div class="header">
+			<a href="/naslovna.html"><img class="header-logo" src="folder_images/hostsportLogo-1.jpg" alt=""></a>
+		</div>
+		<div class="main-menu menu gone show">
+			<div id="responsive-side-menu">
+				<div id="responsive-side-menu-closed">
+					<i class="far fa-times-circle" style="font-size: 2em; color:white; margin-top:4px; margin-left: 15px;"></i>
+				</div>
+				<div class="ul-responsive" style="display: block; padding-left: 10px;">
+					<a class="responsive-main-menu-list-item-link" href="/naslovna.html">NASLOVNA</a>
+					<a class="responsive-main-menu-list-item-link" href="/fudbal.html">FUDBAL</a>
+					<a class="responsive-main-menu-list-item-link" href="/kosarka.html">KOSARKA</a>
+					<a class="responsive-main-menu-list-item-link" href="/topbet.html">TOP-BET</a>
+					<a class="responsive-main-menu-list-item-link" href="/tenis.html" style="color:black">TENIS</a>
+					<a class="responsive-main-menu-list-item-link" href="/boks.html">BOKS</a>
+				</div>
+			</div>
+			<div>
+				<i id="responsive-side-menu-open" class="fas fa-bars" style="font-size: 2em; color:white; margin-top:4px"></i>
+			</div>
+			<div>
+				<img src="/folder_images/Screenshot_2.png" alt="">
+				<img src="/folder_images/Screenshot_1.png" alt="">
+			</div>
+		</div>
+		<div class="main-menu menu disappear">
+			<ul class="horizontal-list">
+				<li class="horizontal-list-item">
+					<a class="main-menu-list-item-link" href="/naslovna.html">NASLOVNA</a>
+				</li>
+				<li class="horizontal-list-item  dropdown">
+					<a class="main-menu-list-item-link" href="/fudbal.html">FUDBAL</a>
+					<img style="position:relative; left:-16px;" src="/folder_images/strelica.png">
+					<div class="dropdown-content" style="position: absolute;background-color: white;">
+						<ul class="dropdown-menu-list">
+							<li class="dropdown-menu-list-item">DOMACI FUDBAL</li>
+							<li class="dropdown-menu-list-item">EVROPSKE LIGE</li>
+							<li class="dropdown-menu-list-item">EVROKUPOVI</li>
+							<li class="dropdown-menu-list-item">SUPERLIGA KINE</li>
+							<li class="dropdown-menu-list-item">REPREZENTACIJA</li>
+							<li class="dropdown-menu-list-item">TRANSFERI</li>
+							<li class="dropdown-menu-list-item">MUNDIJAL</li>
+						</ul>	
+					</div>
+				</li>
+				<li class="horizontal-list-item dropdown">
+					<a class="main-menu-list-item-link" href="/kosarka.html">KOSARKA</a>
+					<img style="position:relative; left:-16px;" src="/folder_images/strelica.png">
+					<div class="dropdown-content" style="position: absolute;background-color: white;">
+						<ul class="dropdown-menu-list">
+							<li class="dropdown-menu-list-item">EVROLIGA</li>
+							<li class="dropdown-menu-list-item">EVROKUP</li>
+							<li class="dropdown-menu-list-item">JADRANSKA LIGA</li>
+							<li class="dropdown-menu-list-item">FIBA LIGA SAMPIONA</li>
+							<li class="dropdown-menu-list-item">NBA</li>
+							<li class="dropdown-menu-list-item">REPREZENTACIJA</li>
+							<li class="dropdown-menu-list-item">VESTI</li>
+							<li class="dropdown-menu-list-item">EUROBASKET</li>
+							<li class="dropdown-menu-list-item">MONDOBASKET</li>
+						</ul>	
+					</div>
+				</li>
+				<li class="horizontal-list-item dropdown">
+					<a class="main-menu-list-item-link" href="/topbet.html">TOP BET</a>
+					<img style="position:relative; left:-16px;" src="/folder_images/strelica.png">
+					<div class="dropdown-content" style="position: absolute;background-color: white;">
+						<ul class="dropdown-menu-list">
+							<li class="dropdown-menu-list-item">HOT TIP</li>
+							<li class="dropdown-menu-list-item">TIKET DANA</li>
+							<li class="dropdown-menu-list-item">KLADIONICARSKE PRICE</li>
+							<li class="dropdown-menu-list-item">HUMANITARNI TIKET</li>
+						</ul>	
+					</div>
+				</li>
+				<li class="horizontal-list-item dropdown">
+					<a class="main-menu-list-item-link" href="/tenis.html" style="color: black;">TENIS</a>
+					<img style="position:relative; left:-16px;" src="/folder_images/strelica.png">
+					<div class="dropdown-content" style="position: absolute;background-color: white;">
+						<ul class="dropdown-menu-list">
+							<li class="dropdown-menu-list-item">ATP</li>
+							<li class="dropdown-menu-list-item">VESTI</li>
+							<li class="dropdown-menu-list-item">KLADIONICARSKE PRICE</li>
+							<li class="dropdown-menu-list-item">WTA</li>
+						</ul>	
+					</div>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="main-menu-list-item-link" href="/boks.html">BOKS</a>
+				</li>
+				<li class="horizontal-list-item dropdown">
+					<a class="main-menu-list-item-link">OSTALI SPORTOVI</a>
+					<img style="position:relative; left:-16px;" src="/folder_images/strelica.png">
+					<div class="dropdown-content" style="position: absolute;background-color: white;">
+						<ul class="dropdown-menu-list">
+							<li class="dropdown-menu-list-item">ATLETIKA</li>
+							<li class="dropdown-menu-list-item">ODBOJKA</li>
+							<li class="dropdown-menu-list-item">RUKOMET</li>
+							<li class="dropdown-menu-list-item">VATERPOLO</li>
+							<li class="dropdown-menu-list-item">ZIMSKI SPORTOVI</li>
+							<li class="dropdown-menu-list-item">VESTI</li>
+						</ul>	
+					</div>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="main-menu-list-item-link">INTERVJU</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="main-menu-list-item-link">LIFESTYLE</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="main-menu-list-item-link">HOTBLOG</a>
+				</li>
+				<li class="horizontal-list-item" style="float:right">
+					<img src="/folder_images/Screenshot_2.png" alt="">
+				</li>
+				<li class="horizontal-list-item" style="float:right">
+					<img src="/folder_images/Screenshot_1.png" alt="">
+				</li>
+			</ul>
+		</div>
+		<div class="menu">
+			<ul class="horizontal-list disappear-grey">
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="" style="color: rgb(255, 0, 54);">SVE VESTI</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">Crvena zvezda</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">Partizan</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">FSS</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">Super liga Srbije</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">ABA liga</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">Djokovic</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">Matic</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">Jovic</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">Jokic</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">Delije</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link" href="">Grobari</a>
+				</li>
+			</ul>
+			<div class="main-menu menu-grey">
+				<div class="responsive-side-menu-grey">
+					<div class="responsive-side-menu-closed-grey">
+						<i class="far fa-times-circle" style="font-size: 2em; color:grey; margin-top:4px; margin-left: 15px;"></i>
+					</div>
+					<div class="ul-responsive" style="display: block; padding-left: 10px;">
+						<a class="responsive-main-menu-list-item-link" style="color:black" href="" >SVE VESTI</a>
+						<a class="responsive-main-menu-list-item-link" style="color:black" href="">Crvena zvezda</a>
+						<a class="responsive-main-menu-list-item-link" style="color:black" href="">Partizan</a>
+						<a class="responsive-main-menu-list-item-link" style="color:black" href="">FSS</a>
+						<a class="responsive-main-menu-list-item-link" style="color:black" href="">Super liga Srbije</a>
+						<a class="responsive-main-menu-list-item-link" style="color:black" href="">ABA liga</a>
+						<a class="responsive-main-menu-list-item-link" style="color:black" href="">Djokovic</a>
+						<a class="responsive-main-menu-list-item-link" style="color:black" href="">Matic</a>
+					</div>
+				</div>
+				<div>
+					<i class="fas fa-bars responsive-side-menu-open-grey" style="font-size: 2em; color:grey; margin-top:4px"></i>
+				</div>
+
+			</div>
+		</div>
+		<div class="sub-menu" style="background-color: rgb(37, 211, 102)">
+			<div class="sub-menu-title">TENIS</div>
+			<ul class="horizontal-list sub-menu-list">
+				<li class="horizontal-list-item sub-menu-list-item ">
+					<a class="sub-menu-list-item-link" href="">ATP</a>
+				</li>
+				<li class="horizontal-list-item sub-menu-list-item ">
+					<a class="sub-menu-list-item-link" href="">Dejvis kup</a>
+				</li>
+				<li class="horizontal-list-item sub-menu-list-item ">
+					<a class="sub-menu-list-item-link" href="">Vesti</a>
+				</li>
+				<li class="horizontal-list-item sub-menu-list-item ">
+					<a class="sub-menu-list-item-link" href="">WTA</a>
+				</li>
+			</ul>
+		</div>
+		<div class="content-container">
+			<div class="content-column-left content-column-container">
+				<div class="main-article">
+					<img class="main-article-image" src="/folder_images/tenis/s1ten.jpeg" alt="">
+					<a href="" class="more-news-link">
+						<h3 class="main-article-header">NAJBOLJI NA SVETU POJAČAO DEJVIS KUP TIM: Novak Đoković odradio prvi trening u Olimpijskoj hali Insbruka (VIDEO)  </h3>
+					</a>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s2ten.jpeg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">REPREZENTACIJA JE KOMPLETNA: Novak Đoković se priključio Dejvis kup timu Srbije u Austriji! (FOTO)</h3>
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s3ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">KOMPLETIRANA LISTA ZA ABU DABI: Pored Nadala i Marej potvrdio učešće!</h3>
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s4ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">SAMO ŠTO JE ZAVRŠIO SA BORBAMA U TORINU, A VEĆ STIŽE U REPREZENTACIJU: Lajović i Krajinović se dive Novaku, vreme je da napadnemo taj Dejvis kup!</h3>	
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s5ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">NOVO PRAVILO U TENISU, ATP KONAČNO PRESEKAO: Novaku će se ovo svideti, a Cicipasu baš i ne!</h3>	
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s6ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">ZVEREV STAO NA STRANU ĐOKOVIĆA: „On je broj jedan i treba da bude tu“!</h3>	
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s7ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">CICIPAS ĆE MORATI NA OPERACIJU: Posetio Novakovog lekara i nada se sličnom ishodu!</h3>
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s8ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">NAŠI TENISERI UPALILI MOTORE: Odrađen prvi trening, Troicki ne krije zadovoljstvo – evo kakva je atmosfera na treningu! (VIDEO)</h3>
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s9ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">NASTAVLJA SE DOMINACIJA: Đokovićeva 348. nedelja vladavine, Srbin podebljao rekord!</h3>
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s10ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">NOVAK PONOVO POKAZAO VELIČINU: Đoković čestitao Zverevu, njegove reči će pamtiti – ‘Imao je tešku godinu’</h3>
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s11ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">‘OSTAO JE JOŠ JEDAN CILJ!’: Zverev presrećan!</h3>
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s12ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">ĐOKOVIĆ JEDVA ČEKA DA IGRA ZA SRBIJU: Velike nade se polažu u Dejvis kup!</h3>	
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="secondary-article">
+					<img class="secondary-article-image" src="/folder_images/tenis/s13ten.jpg" alt=""><!-- 
+				 --><div class="secondary-article-content">
+						<a href="" class="more-news-link">
+							<h3 class="secondary-article-content-title">ZVEREV NAKON POBEDE IMAO ŠTA DA KAŽE: „Đoković je i dalje najbolji ikada“!</h3>
+						</a>
+						<div class="secondary-article-content-creator">
+							<img class="secondary-article-content-creator-image" src="/folder_images/avatar.png" alt="">
+							<div class="secondary-article-content-creator-text">
+								<div>HotSport</div>
+								<div class="secondary-article-content-creator-text-date">23.11.2021., 23:43</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="load-more-button-container">
+					<div class="load-more-button">UCITAJ JOS VESTI</div>
+				</div>
+			</div><!--
+		 --><div class="content-column-right content-column-container">
+				<div class="content-column-right-more-news">
+					<div class="more-news-title">Vise sa weba</div>
+					<div class="more-news-row-container">
+						<div class="more-news-container">
+							<a href="" class="more-news-link">
+								<img class="more-news-img" src="/folder_images/reklama1.jpg" alt="">
+								<div class="more-news-title">Bole vas zglobovi i kosti? Uradite ovo jednom zauvek...</div>
+							</a>
+						</div><!--
+					--><div class="more-news-container">
+							<a href="" class="more-news-link">
+								<img class="more-news-img" src="/folder_images/reklama2.jpg" alt="">
+								<div class="more-news-title">Sprečite opadanje kose, bujna i zdrava kosa za nekoliko dana!</div>
+							</a>
+						</div><!--
+					--><div class="more-news-container">
+							<a href="" class="more-news-link">
+								<img class="more-news-img" src="/folder_images/reklama3.jpg" alt="">
+								<div class="more-news-title">Drevni recept za rešenje šećera u krvi!</div>
+							</a>
+						</div>
+					</div>
+					<div class="more-news-row-container">
+						<div class="more-news-container">
+							<a href="" class="more-news-link">
+								<img class="more-news-img" src="/folder_images/reklama4.jpg" alt="">
+								<div class="more-news-title">Koji su simptomi i opasnosti crijevnih parazita</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<h2 class="content-column-right-header">NAJNOVIJE VESTI</h2>
+				<hr class="content-column-right-header">
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/EDJ4199-90x67.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">JOKANOVIĆ BOLJI OD PAUNOVIĆA: Šefild slavio na teškom gostovanju!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/srbija-press-1292-364x205.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">BIVŠI SELEKTOR SRBIJE NAPUSTIO KLUPU REPREZENTACIJE: Iskusni stručnjak žali zbog loših rezultata!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/Levandovski.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">FUDBALERI KIJEVSKOG KLUBA ODUŠEVLJENI LEVANDOVSKIM: ‘Nadam se da će ove godine osvojiti Zlatnu loptu! Svi znamo da je svetska klasa’ (VIDEO)</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/liga-sampiona-1.png" alt=""><!-- 
+					 --><div class="newest-list-item-title">BIRMANČEVIĆ ASISTIRAO, MALME PODELIO PLEN SA ZENITOM: Šampion Evrope ubedljiv u Londonu! (VIDEO)</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/cr7.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">KERIK OTKRIO KOME SU ‘CRVENI ĐAVOLI’ POSVETILI POBEDU: Ronaldo i Sančo obradovali navijače Junajteda! (VIDEO)</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/ODLAZAK-RUSSIA_10-364x205.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">INTER SVIM SILAMA KREĆE U ‘NAPAD’ NA SRBINA: U njemu pronalaze zamenu za Perišića – Piksi umešao prste u transfer!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/SERBIA-AZERBAIJAN_128-364x205.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">HEROJ ‘ORLOVA’ NAPUŠTA OSTRVO: Transfer koji će ‘zapaliti’ Primeru – španski gigant spremio milione za srpsku ‘gol mašinu’!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/VOJVODINA-PARTIZAN_10-364x205.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">BARSA IH NE ZANIMA: Almerija stavila tačku na celu priču – Španci otkrili šta će da rade sa Sadikom, ovo su loše vesti za Partizan!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/540x_850omladinci-364x205.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">‘PUKLA PETARDA’ U ITALIJI: Empoli demolirao oslabljenu Zvezdu – ipak, razlika u godinama je očigledna!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/Hvataj-28-364x205.png" alt=""><!-- 
+					 --><div class="newest-list-item-title">LIGA ŠAMPIONA: Bajern nastavlja da gazi sve pred sobom, ‘spasilac’ Ronaldo odveo Mančester u nokaut fazu LŠ!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/0-02-05-b47d8a3eee39825b1b3fd65ab0e6cb9412f0963c07ce9e18d11815d257411102_36140975ca30cd7-364x205.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">‘MA TO ME NE ZANIMA’: Đani Ćurčić odradio prvi trening sa novim klubom, pa jednom izjavom navijačima raspalio maštu! (VIDEO)</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/www-364x205.png" alt=""><!-- 
+					 --><div class="newest-list-item-title">‘SNEŽNA MAJSTORIJA’ U REŽIJI ROBERTA LEVANDOVSKOG: Poljak još jednom pokazao klasu, postigao evrogol pa oborio ovaj rekord! (VIDEO)</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/PARTIZAN-FLORA_06-364x205.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">TEŽAK UDARAC ZA CRNO-BELE: Stanojević se hvata za glavu, meč sa Florom propušta jedan od najboljih!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/zvezda-empoli-mladi-89195-90x67.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">DODATNI VETAR U LEĐA: Crveno-beli imali prijatno iznenađenje u Empoliju, uoči utakmice posetio ih fudbaler Fiorentine! (FOTO)</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/SERBIA-PORTUGAL_51-90x67.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">‘SLUŠAJ DRAGANE, BUDI OPREZAN’: Piksi se prisetio razgovora sa Maradonom, otkrio šta ga je posavetovao legendarni Argentinac!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/Hvataj-27-90x67.png" alt=""><!-- 
+					 --><div class="newest-list-item-title">‘NE ZNAM KOGA OVE DEVOJKE GLEDAJU’: Cela Bosna bruji o ovom komentatoru – u toku prenosa ‘skrenuo sa teme’ pa nasmejao sve do suza! (VIDEO)</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/PARTIZAN-VOJVODINA_49-90x67.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">‘MIRNO I SKONCENTRISANO ULAZIMO U MEČ’: Parni valjak bez euforije pred Floru – igrači su navijačima obećali jednu stvar!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/leo.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">‘KLUB NIJE BIO FER PREMA NJEMU!’: Leo Mesi opleo po Barseloni kao nikad pre i to zbog jednog čoveka!</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/ZVEZDA-PARTIZAN-Game-I_19-90x67.jpg" alt=""><!-- 
+					 --><div class="newest-list-item-title">‘ZNAM KO ME TAMO VOLI, A KO NE!’: Alen Omić motivisan za duele sa Crvenom zvezdom – ‘Moja ljubav je košarka, a ne nacionalnost’</div>
+					</a>
+				</div>
+				<div class="newest-list-item">
+					<a class="title-links" href="">
+						<img class="newest-list-item-image" src="/folder_images/WhatsApp-Image-2021-11-23-at-4.43.58-PM-90x67.jpeg" alt=""><!-- 
+					 --><div class="newest-list-item-title">NAJBOLJI NA SVETU POJAČAO DEJVIS KUP TIM: Novak Đoković odradio prvi trening u Olimpijskoj hali Insbruka (VIDEO)  </div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-container">
+			<div class="footer-background-shadow">
+				<div class="footer-row"><!--
+				--> <div class="footer-content-container">
+						<h2 class="footer-titles">PRIZNANJA</h2>
+						<h2 class="footer-titles">NAJBOLJI SAJT U KATEGORIJI SPORT ZA 2019.</h2>
+						<img class="footer-img" src="/folder_images/footerimg.jpg" alt="">
+					</div><!--
+				 --><div class="footer-content-container">
+					</div><!--
+				 --><div class="footer-content-container">
+						<h2 class="footer-titles">NEDAVNI KOMENTARI</h2>
+						<div class="footer-comments footer-text">zubac u</div>
+						<h2 class="footer-titles footer-text">‘MI SVOJE OBAVEZE IZVRŠAVAMO’: Vučić optužen da nije uplatio obećan novac ‘orlovima’, on žustro reagovao pa na ovaj način odgovorio ‘nevernim Tomama’!</h2>
+						<div class="footer-comments footer-text">Sloba grobar preko 63 u</div>
+						<h2 class="footer-titles footer-text">VELEOBRT U DORTMUNDU: Borusija skovala plan, ogromno povećanje plate za ostanak Halanda?!</h2>
+					</div>
+				</div>
+			</div>
+	 	</div>
+		<div class="footer-bottom">
+			<p class="copyright">&#169; 2021 HotSport</p>
+			<ul class="horizontal-list" style="text-align:right;">
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link footer-list" href="">Marketing</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link footer-list" href="/o-nama.html">O nama</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link footer-list" href="">Impressum</a>
+				</li>
+				<li class="horizontal-list-item">
+					<a class="second-menu-list-item-link footer-list" href="/kontakt.html">Kontakt</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script src="folder_js/main.js"></script>
+</html>
